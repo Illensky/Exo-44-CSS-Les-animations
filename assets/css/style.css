@@ -11,12 +11,12 @@ body {
 @keyframes anim1 {
     from {
         font-size: 1rem;
-        height: 100px;
+        height: 10vh;
         background-color: rebeccapurple;
     }
     to {
         font-size: 3rem;
-        height: 500px;
+        height: 50vh;
         background-color: red;
         transform: scale(1.2) rotate(90deg);
     }
@@ -29,13 +29,13 @@ body {
     }
     to {
         position: absolute;
-        left: 92vw;
+        left: 90vw;
     }
 }
 
 p {
     font-size: 1rem;
-    height: 100px;
+    height: 10vh;
     background-color: rebeccapurple;
     animation-name: anim1;
     animation-duration: 10s;
@@ -47,8 +47,8 @@ div {
     position: absolute;
     top: 400px;
     background-color: green;
-    height: 100px;
-    width: 100px;
+    height: 10vh;
+    width: 10vw;
     z-index: 99;
     animation-name: lr;
     animation-duration: 10s;
